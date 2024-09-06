@@ -55,7 +55,6 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-direction: column;
 }
 
 .home-container {
@@ -131,5 +130,9 @@ body {
 
     .show {
         display: block;
+    }
+
+    .header {
+        flex-direction: column;
     }
 }

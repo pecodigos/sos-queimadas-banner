@@ -51,7 +51,7 @@ body {
 }
 
 .header {
-    padding: 5% 10%;
+    padding: 4% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,11 +80,20 @@ body {
 }
 
 .footer {
-    position: fixed;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 45px;
+}
+
+.footer_text {
+    position: relative;
+    padding-bottom: 2%;
     text-align: center;
-    left: 0%;
-    bottom: 2%;
-    width: 100%;
+}
+
+.footer_bottom {
+    bottom: 0;
 }
 
 .email {
@@ -107,10 +116,10 @@ body {
     display: none;
 }
 
-@media (max-width: 425px) {
-    .footer {
-        position: unset;
-        margin-top: 20px;
+@media (max-width: 928px) {
+
+    .footer_bottom {
+        bottom: unset;
     }
     
     .navigation-bar {

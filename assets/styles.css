@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&display=swap');
+
+:root {
+    --bg-color: #1d2021;
+    --text-color: #fbf1c7;
+    --links-color: #A78295;
+    --highlight-color: #cc241d;
+    --hover-color: #3F2E3E;
+
+    --primary-font: 'Fira Code', monospace;
+}
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+body {
+    box-sizing: border-box;
+    background-color: var(--bg-color);
+    color: var(--text-color);
+}
+
+.navigation-bar {
+    display: flex;
+    gap: 2rem;
+}
+
+.main-title {
+    font-size: 3rem;
+}
+
+.highlight {
+    color: var(--highlight-color);
+}
+
+.teamseven {
+    color: #d65d0e;
+}
+
+.navigation-bar-link {
+    color: var(--links-color);
+    font-size: 1.5rem;
+}
+.navigation-bar-link:hover {
+    color: var(--hover-color);
+}
+
+.header {
+    padding: 2% 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.home-container {
+    display: flex;
+    padding: 5% 10%;
+    flex-direction: column;
+}
+
+.about-container {
+    display: flex;
+    padding: 5% 10%;
+    flex-direction: column;
+}
+
+.first-paragraph {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.second-paragraph {
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.footer {
+    position: fixed;
+    text-align: center;
+    left: 0%;
+    bottom: 2%;
+    width: 100%;
+}
+
+.email {
+    color: var(--links-color);
+}
+
+.madeby {
+    font-size: 1.2rem;
+    text-align: left;
+    padding-left: 5%;
+}
+
+.development {
+    font-size: 1.5rem;
+    text-align: left;
+    padding-left: 5%;
+}
+
+

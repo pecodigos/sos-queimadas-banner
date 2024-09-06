@@ -51,7 +51,7 @@ body {
 }
 
 .header {
-    padding: 5% 10%;
+    padding: 4% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -80,14 +80,19 @@ body {
 }
 
 .footer {
-    text-align: center;
-}
-
-.footer_text {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -50%);
-    margin-top: 20px;
+    margin-top: 45px;
+}
+
+.footer_text {
+    position: relative;
+    padding-bottom: 2%;
+    text-align: center;
+}
+
+.footer_bottom {
     bottom: 0;
 }
 
@@ -112,11 +117,8 @@ body {
 }
 
 @media (max-width: 928px) {
-    .footer {
-        margin-top: 20px;
-    }
 
-    .footer_text {
+    .footer_bottom {
         bottom: unset;
     }
     

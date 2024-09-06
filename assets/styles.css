@@ -102,4 +102,8 @@ body {
     padding-left: 5%;
 }
 
-
+@media (max-width: 425px) {
+    .footer {
+        position: unset;
+    }
+}

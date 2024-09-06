@@ -80,11 +80,15 @@ body {
 }
 
 .footer {
-    position: fixed;
     text-align: center;
-    left: 0%;
-    bottom: 2%;
-    width: 100%;
+}
+
+.footer_text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin-top: 20px;
+    bottom: 0;
 }
 
 .email {
@@ -107,10 +111,13 @@ body {
     display: none;
 }
 
-@media (max-width: 425px) {
+@media (max-width: 928px) {
     .footer {
-        position: unset;
         margin-top: 20px;
+    }
+
+    .footer_text {
+        bottom: unset;
     }
     
     .navigation-bar {

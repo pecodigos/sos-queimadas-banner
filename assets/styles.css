@@ -27,6 +27,7 @@ body {
 .navigation-bar {
     display: flex;
     gap: 2rem;
+    margin-top: 20px;
 }
 
 .main-title {
@@ -50,7 +51,7 @@ body {
 }
 
 .header {
-    padding: 2% 10%;
+    padding: 5% 10%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -58,7 +59,7 @@ body {
 
 .home-container {
     display: flex;
-    padding: 5% 10%;
+    padding: 2% 10%;
     flex-direction: column;
 }
 
@@ -102,4 +103,36 @@ body {
     padding-left: 5%;
 }
 
+#openMenu {
+    display: none;
+}
 
+@media (max-width: 425px) {
+    .footer {
+        position: unset;
+        margin-top: 20px;
+    }
+    
+    .navigation-bar {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navigation-bar-link {
+        display: none;
+    }
+
+    #openMenu {
+        display: block;
+        width: 45px;
+        cursor: pointer;
+    }
+
+    .show {
+        display: block;
+    }
+
+    .header {
+        flex-direction: column;
+    }
+}

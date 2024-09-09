@@ -63,14 +63,14 @@ body {
 
 .home-container {
     display: flex;
-    padding: 2% 10%;
+    padding: 1% 10%;
     flex-direction: column;
     flex-grow: 1;
 }
 
 .about-container {
     display: flex;
-    padding: 0 10%;
+    padding: 1% 10%;
     flex-direction: column;
     flex-grow: 1;
 }
@@ -87,7 +87,7 @@ body {
 
 .footer {
     position: relative;
-    padding: 2%;
+    padding: 1%;
     text-align: center;
     margin-top: auto;
 }
